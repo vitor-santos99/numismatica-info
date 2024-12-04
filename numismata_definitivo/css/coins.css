@@ -1,0 +1,99 @@
+body{
+
+    background-color: black;
+    font-family:"Bokor", system-ui;
+    color: white;
+}
+h1{
+
+    text-align: center;
+}
+
+
+#titulo01{
+    margin: 20px;
+}
+
+
+.container01{
+        width: 200px;
+        margin: 20px;
+
+}
+
+.container01 img{
+
+    height: 300px;
+    transition: 20s all linear;
+}
+
+.container01:hover img{
+    transform: scale(2);
+}
+
+#titulo02{
+    margin: 20px;
+}
+
+
+.container02{
+    width: 200px;
+    margin: 20px;
+}
+
+.container02 img{
+    height: 420px;
+    transition: 20s all linear;
+
+}
+
+.container02:hover img{
+    transform: scale(2);
+}
+
+#titulo03{
+    margin: 20px;
+
+}
+
+
+.container03{
+    width: 200px;
+    margin: 20px;
+}
+
+
+.container03 img{
+    height: 400px;
+    transition: 20s all linear;
+
+}
+
+.container03:hover img{
+
+    transform: scale(2);
+}
+
+#titulo04{
+
+    margin: 20px;
+}
+
+.container04 img{
+
+    height: 350px;
+    transition: 20s all linear;
+}
+
+.container04:hover img{
+
+    transform: scale(2);
+}
+
+
+.container04{
+    width: 200px;
+    margin: 20px;
+}
+
+

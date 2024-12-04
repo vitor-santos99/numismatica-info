@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+    font-family:"Bokor", system-ui;
+    color: white;
+}
+
+header{
+
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    margin: -5px;
+
+}
+
+.container{
+
+        margin: 15px;
+}
+.navbar {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    overflow: hidden;
+    
+}
+
+/* Links da barra */
+.navbar a {
+    color:white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Cor do link ao passar o mouse */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Estilos para o item ativo */
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+img{
+
+    height: 510px;
+    width: 100%;
+}
+
+
+
+
+/* Estilo do footer */
+.footer {
+    background-color: #0e0e0e(135deg, #0e0e0e, #292929);
+    color: #fff;
+    padding: 20px 0;
+    font-family:"Bokor", system-ui;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-logo h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .footer-nav a:hover {
+    color: #00e6e6;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background 0.3s;
+  }
+  
+  .social-icon:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  

@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:"Bokor", system-ui;
+
+}
+
+h1{
+    text-align: center;
+}
+h2{
+
+    text-align: center;
+}
+
+.container01{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container02{
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container03{
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container04{
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
